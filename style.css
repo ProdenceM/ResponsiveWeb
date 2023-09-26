@@ -4,47 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 600px) {
-  h1 {
-    font-size: 40px;
-    text-align: center;
-  }
-  h2 {
-    font-size: 30px;
-    text-align: center;
-  }
-  h3 {
-    font-size: 20px;
-    text-align: center;
-  }
-  p {
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  img {
-    display: none;
-  }
-  .text-center {
-    text-align: center;
-    font-size: 28px;
-  }
-  .about-paragraphs {
-    margin: 0px;
-  }
-  .about-paragraphs p {
-    margin: 0px;
-  }
-  .email-link {
-    font-size: 18px;
-  }
-  .primary-link {
-    padding: 18px 15px;
-    display: inline-flex;
-  }
-}
-
 body {
   margin-top: 100px;
 }
@@ -93,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -126,4 +89,48 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .text-center {
+    text-align: center;
+    font-size: 28px;
+  }
+  .about-paragraphs {
+    margin: 0px;
+  }
+  .about-paragraphs p {
+    margin: 0px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+  .primary-link {
+    padding: 18px 15px;
+    display: inline-flex;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
